@@ -38,6 +38,8 @@ header{
 }
 
 .hero{
+    display: flex;
+    align-items: center;
     position: relative;
     background-image: url('images/Night\ Road.png');
     background-position: center;
@@ -46,8 +48,18 @@ header{
     height: 80vh;
 }
 
+.hero-title{
+    color: white;
+    margin-left: 20px;
+    font-size: 2em;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 2;
+}
+
 .overlay{
     position: absolute;
+    z-index: 1;
     background-color: rgba(48, 48, 48, 0.541);
     top: 0;
     right: 0;
